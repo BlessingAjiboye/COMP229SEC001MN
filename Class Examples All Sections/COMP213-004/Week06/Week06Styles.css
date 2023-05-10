@@ -1,0 +1,51 @@
+﻿h1 {
+	background-image: url('images/trilliumbanner.jpg');
+	background-repeat: no-repeat;
+	height: 86px;
+	background-color: #D5ECB3;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	background-image: url('images/trilliumgradient.png');
+}
+h2 {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color: #5C743D;
+	background-color: #D5ECB3;
+	background-image: url('images/trilliumbg.gif');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+ul {
+	list-style-image: url('images/trillium.gif');
+}
+footer {
+	background-color: #5C743D;
+	color: #FFFFFF;
+	background-image: url('images/trilliumfoot.gif');
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 80px;
+	padding-left: 4px;
+}
+#copyright {
+	font-size: x-small;
+}
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+a:hover {
+	color: #5C743D;
+	background-color: #D5ECB3;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}

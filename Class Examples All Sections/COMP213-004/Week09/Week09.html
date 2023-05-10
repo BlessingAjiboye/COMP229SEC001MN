@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Week 09 - HTML Forms</title>
+<meta content="HTML form, COMP213" name="keywords">
+<meta content="Exaple of using HTML forms." name="description">
+<link href="Week09Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="allPage">
+<header>
+	<img alt="Centennial logo" height="209" src="images/CC50thAnniversary.jpg" width="200">
+	<h1>Centennial College - Registration Form</h1>
+</header>
+<form action="mailto:jdoe@somewhere.ca" method="post">
+		<table style="width: 100%">
+			<tr>
+				<td class="fieldLabel">First Name:</td>
+				<td>
+				<input name="txtFirstName" size="25" tabindex="1" type="text"></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel">Last Name:</td>
+				<td>
+				<input name="txtLastName" size="25" tabindex="3" type="text"></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel">Email:</td>
+				<td><input name="txtEmail" size="30" tabindex="5" type="text"></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel">Create Pwd:</td>
+				<td>
+				<input name="txtCreatePwd" size="16" tabindex="7" type="password"></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel">Confirm Pwd:</td>
+				<td>
+				<input name="txtConfirmPwd" size="16" tabindex="9" type="password"></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel">Gender: </td>
+				<td>
+				<input checked="true" name="optGender" tabindex="11" type="radio" value="M">M
+				<input name="optGender" tabindex="13" type="radio" value="F">F</td>
+			</tr>
+			<tr>
+				<td class="fieldLabel">Education:</td>
+				<td><input checked="true" name="optEd" tabindex="15" type="radio" value="Sec">Secondary 				<input name="optEd" tabindex="17" type="radio" value="Col">College
+				<input name="optEd" tabindex="19" type="radio" value="UGrad">UGrad
+				<input name="optEd" tabindex="21" type="radio" value="Grad">Grad
+				<input name="optEd" tabindex="23" type="radio" value="PGrad">PPGrad</td>
+			</tr>
+			<tr>
+				<td class="fieldLabel">Computer Knowledge:</td>
+				<td>
+				<input name="chkOS" tabindex="25" type="checkbox" value="OS">OS
+				<input name="chkNet" tabindex="27" type="checkbox" value="Net">Networking
+				<input name="chkProg" tabindex="29" type="checkbox" value="Prog">Programming
+				<input name="chkWeb" tabindex="31" type="checkbox" value="Web">Web 
+				Design
+				<input name="chkDB" tabindex="33" type="checkbox" value="DB">DB</td>
+			</tr>
+			<tr>
+				<td class="fieldLabel">Select Courses: </td>
+				<td>
+				<select multiple="multiple" name="lstCourses" size="4" tabindex="35">
+				<option value="COMP213">COMP213 Web Interface Design</option>
+				<option value="COMP125">COMP125 Client Side Web Development
+				</option>
+				<option value="COMP229">COMP229 Server Side Web Development
+				</option>
+				<option value="COMP100">COMP100 Programming I</option>
+				<option value="COMP225">COMP225 Systems I</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel">Special Requests:</td>
+				<td>
+				<textarea cols="50" name="txtSpecialReq" rows="7" tabindex="37">---Please enter any special requirements you may have (e.g. note taking, closed captioning, etc.)---</textarea></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel">
+				<input name="btnSubmit" tabindex="39" type="submit" value="Complete Registration"></td>
+				<td>
+				<input name="btnReset" tabindex="41" type="reset" value="Start Again"></td>
+			</tr>
+		</table>
+</form>
+<footer>
+	<p id="copyright">&copy;&nbsp;Copyright Joanne Filotti -COMP213 - Week 09 - HTML Forms</p>
+</footer>
+</div>
+
+</body>
+
+</html>

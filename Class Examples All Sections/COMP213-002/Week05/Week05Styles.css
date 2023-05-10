@@ -1,0 +1,40 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	background-color: #CCCCFF;
+}
+h3, h4 {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color: #49166D;
+}
+td {
+	vertical-align: top;
+}
+#contact {
+	vertical-align: bottom;
+	text-align: right;
+}
+a {
+	text-decoration: none;
+	color: #49166D;
+}
+a:hover {
+	text-decoration: underline overline;
+	background-color: #CAFF95;
+}
+ul {
+	list-style-image: url('images/aball.gif');
+}
+.oddRow {
+	background-color: #CAFF95;
+}
+.evenRow {
+	background-color: #FFFFFF;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}

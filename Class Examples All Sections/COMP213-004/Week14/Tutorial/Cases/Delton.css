@@ -1,0 +1,19 @@
+﻿Client {
+display:inline; 
+margin-bottom:20px;
+background-color:aqua;
+width:200px;
+float:left;
+margin-right:20px;
+padding:10px;
+border:medium black solid;
+border-radius:5px;
+box-shadow:5px 5px 5px 5px gray;}
+Name, Address, Street, Phone, E-mail, Account_Total {display:block}
+Address, Phone, E-mail, Account_Total {text-indent:1em}
+Name {font-family:Arial, Helvetica, sans-serif; font-weight:bold}
+First, Last {display:inline; margin-right:0.5em}
+Account_Total{
+	color:red;
+	font-weight:bold;
+}

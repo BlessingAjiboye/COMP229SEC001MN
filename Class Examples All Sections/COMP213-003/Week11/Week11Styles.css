@@ -1,0 +1,41 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+h1 {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: large;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color: navy;
+	margin-top: -4px;
+}
+#copyright {
+	font-size: x-small;
+}
+#allPage {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+.floatRight {
+	float: right;
+	margin-left: 6px;
+}
+.pageTitle {
+	color: navy;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: large;
+	font-variant: small-caps;
+	text-transform: capitalize;
+}
+#nav {
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	width: 170px;
+	height: 470px;
+	z-index: 2;
+	padding-top: 17px;
+}
